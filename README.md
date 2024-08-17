@@ -1,8 +1,46 @@
-# React + Vite
+## <strong>CurrencyApp</strong><br>
+### Tech
+<hr>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [React] - React is a JavaScript-based UI development framework.
 
-Currently, two official plugins are available:
+- [React Router] - React Router is a standard library for routing in React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Axios] - Promise based HTTP client for the browser and node.js
+
+- [Node.js] - Evented I/O for the backend.
+
+- [CSS] - CSS is a style sheet language used for controlling the appearance of HTML documents. By using CSS, you can specify how text, colors, sizes, and other style properties are displayed.
+
+- [Visual Studio Code] - Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.- 
+<br>
+
+###  Features and Functionality
+<hr>
+
+- Exchange rate unit translation application($,€,₺)
+<br>
+
+###  App Flow
+<hr>
+Project Structure
+
+```
+currency-converter-app
+├── public
+│   ├── index.html
+│   ├── images
+├── src
+│   ├── assets
+│   │   └── fonts
+│   ├── components
+│   │   ├── Currency.jsx
+│   ├── css
+│   │   └── currency.css
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+
