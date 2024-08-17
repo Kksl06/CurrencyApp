@@ -1,0 +1,73 @@
+.currency-main {
+  margin:50% auto;
+  border-bottom: 2px solid gold;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.amount-input {
+  border: 1px solid #ccc;
+  background-color:#ccc;
+  width: 120px;
+  height: 22px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;  
+  outline: none;
+  padding: 4px;
+}
+
+.amount-input::-webkit-inner-spin-button,   
+.amount-input::-webkit-outer-spin-button {  
+    -webkit-appearance: none;  
+    margin: 0;  
+} 
+
+.first-currency-option {
+  border: 1px solid #ccc;
+  background-color:#ccc;
+  width: 60px;
+  height: 28px;
+  margin-right: 10px;
+  border-radius: 10px;  
+  outline: none;
+}
+
+.second-currency-option {
+  border: 1px solid #ccc;
+  background-color:#ccc;
+  width: 60px;
+  height: 28px;
+  margin-right: 10px;
+  border-radius: 10px;  
+  outline: none;
+}
+
+.result-input {
+  border: 1px solid #ccc;
+  background-color:#ccc;
+  width: 120px;
+  height: 22px;
+  padding: 4px;
+  margin-right: 10px;
+  border-radius: 10px;  
+  outline: none;
+}
+
+.btn-main {
+  width: 100px;
+  font-weight: bold;
+  height: 30px;
+  border: none;
+  background-color: teal;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 30px;
+}
